@@ -20,7 +20,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="notes" options="-parameters" />
+      <module name="notes" options="-parameters --add-modules java.sql" />
     </option>
   </component>
 </project>
