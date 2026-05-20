@@ -28,14 +28,15 @@ A Spring Boot–based backend application that allows users to securely create a
 
 ## 📁 Project Structure
 
-secure-notes/
-├── controller/        # REST controllers (Notes, Admin)
-├── service/           # Business logic interfaces
-├── serviceimpl/       # Service implementations
-├── repository/        # JPA repositories
-├── model/             # Entity & DTO classes
-├── config/            # Security configuration
-└── SecureNotesApp.java
+| Folder/File        | Description                              |
+|-------------------|------------------------------------------|
+| controller/       | REST controllers (Notes, Admin)          |
+| service/          | Business logic interfaces                |
+| serviceimpl/      | Service implementations                  |
+| repository/       | JPA repositories                         |
+| model/            | Entity & DTO classes                     |
+| config/           | Security configuration                   |
+| SecureNotesApp.java | Main Spring Boot application class     |
 
 ## ⚙️ Setup & Installation
 
@@ -52,7 +53,7 @@ Make sure you have the following installed:
 
 ### 1. Clone the Repository
 
-git clone https://github.com/thedaripanator/secure-notes.git  
+git clone https://github.com/thedaripanator/notes-vault-api.git  
 cd secure-notes  
 
 ---
