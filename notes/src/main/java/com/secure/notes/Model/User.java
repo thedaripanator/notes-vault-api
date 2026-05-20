@@ -20,7 +20,7 @@ import java.util.Objects;
 @NoArgsConstructor
 @Table(name="users",
 uniqueConstraints = {
-        @UniqueConstraint(columnNames = "username"),
+        @UniqueConstraint(columnNames = "username"),// no two rows have same username and email
         @UniqueConstraint(columnNames = "email")
 })
 public class User {

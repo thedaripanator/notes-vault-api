@@ -38,8 +38,7 @@ public class UserDetailsImpl implements  UserDetails {
     }
 
 
-    public static UserDetailsImpl build(Optional<User> user) {
-        User u = user.orElseThrow(() -> new RuntimeException("User not found"));
+    public static UserDetailsImpl build(User u) {
         GrantedAuthority grantedAuthority = new SimpleGrantedAuthority(u.getRole().getRoleName().name());
         return new UserDetailsImpl(
                 u.getUserId(),

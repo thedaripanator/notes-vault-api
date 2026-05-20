@@ -4,14 +4,17 @@ package com.secure.notes.Model;
 import com.fasterxml.jackson.annotation.JsonBackReference;
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 import lombok.ToString;
-import org.springframework.security.core.userdetails.User;
+import com.secure.notes.Model.User;
 
 import java.util.HashSet;
 import java.util.Set;
 
+@Entity
 @Data
 @Table(name="roles")
+@NoArgsConstructor
 public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
