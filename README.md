@@ -28,7 +28,6 @@ A Spring Boot–based backend application that allows users to securely create a
 
 ## 📁 Project Structure
 
-```bash
 secure-notes/
 ├── controller/        # REST controllers (Notes, Admin)
 ├── service/           # Business logic interfaces
