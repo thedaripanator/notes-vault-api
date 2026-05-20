@@ -28,15 +28,14 @@ A Spring Boot–based backend application that allows users to securely create a
 
 ## 📁 Project Structure
 
+```bash
 secure-notes/
-│
-├── controller/ # REST controllers (Notes, Admin)
-├── service/ # Business logic interfaces
-├── serviceimpl/ # Service implementations
-├── repository/ # JPA repositories
-├── model/ # Entity & DTO classes
-├── config/ # Security configuration
-│
+├── controller/        # REST controllers (Notes, Admin)
+├── service/           # Business logic interfaces
+├── serviceimpl/       # Service implementations
+├── repository/        # JPA repositories
+├── model/             # Entity & DTO classes
+├── config/            # Security configuration
 └── SecureNotesApp.java
 
 ## ⚙️ Setup & Installation
